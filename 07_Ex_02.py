@@ -37,8 +37,8 @@ class Suit(Clothes):
         return 2 * self._height + 0.3
 
 
-coat = Coat('Пальто', 3)
+coat = Coat('Пальто ', 3)
 print(coat.calculate)
 
-suit = Suit('Костюм', 1.8)
+suit = Suit('Костюм ', 1.8)
 print(suit.calculate)
