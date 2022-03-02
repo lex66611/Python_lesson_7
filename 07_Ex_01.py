@@ -19,7 +19,7 @@ class Matrix:
 
             return Matrix(new_value)
         except IndexError:
-            print("Ошибка - Матрицы разного размера")
+            print("Матрицы разного размера")
             exit(1)
 
     def __str__(self):
@@ -42,3 +42,4 @@ b = Matrix([
 c = a + b
 
 print(c)
+#Завершено
