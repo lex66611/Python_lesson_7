@@ -42,3 +42,4 @@ b = Matrix([
 c = a + b
 
 print(c)
+#Завершено

@@ -42,3 +42,4 @@ print(coat.calculate)
 
 suit = Suit('Костюм ', 1.8)
 print(suit.calculate)
+#Завершено
